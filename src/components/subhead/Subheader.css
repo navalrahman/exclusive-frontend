@@ -1,0 +1,120 @@
+/* .subheader-component {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+
+}
+
+.subheader-container-one {
+    flex: 1;
+    text-align: center;
+}
+
+.subheader-container-one p {
+    display: inline;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.subheader-container-two {
+    text-align: right;
+    margin-right: 50px;
+}
+
+.subheader-container-two select{
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+} */
+
+.subheader-component {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.subheader-container-one {
+    flex: 1;
+    text-align: center;
+}
+
+.subheader-container-one p {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.subheader-container-two {
+    text-align: right;
+    margin-right: 50px;
+}
+
+.subheader-container-two select {
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+    padding: 4px 8px;
+    font-size: 14px;
+}
+
+/* 🔹 For Mobile Devices */
+@media (max-width: 767px) {
+    .subheader-component {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .subheader-container-one,
+    .subheader-container-two {
+        text-align: left;
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .subheader-container-two select {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+/* 🔸 For Tablets and Small Laptops */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .subheader-component {
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 15px;
+    }
+
+    .subheader-container-one {
+        text-align: left;
+    }
+
+    .subheader-container-two {
+        text-align: right;
+        margin-right: 20px;
+    }
+
+    .subheader-container-two select {
+        font-size: 13px;
+    }
+}
+
+/* 🟢 For Desktop (optional overrides if needed) */
+@media (min-width: 1025px) {
+    .subheader-container-one p {
+        font-size: 14px;
+    }
+
+    .subheader-container-two select {
+        font-size: 14px;
+    }
+}

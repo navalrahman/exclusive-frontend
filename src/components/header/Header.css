@@ -1,0 +1,117 @@
+.header-component {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #000000;
+}
+
+
+.header-container-one {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-container-two {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-container-three {
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-container-three-subdivison-one {
+    display: flex;
+    align-items: center;
+    border: none;
+    /* border: 0.5px solid gray; */
+    /* width: 00px; */
+    padding: 6px;
+    background-color: #F5F5F5;
+}
+
+.header-container-three-subdivison-one input {
+    width: 250px;
+    outline: none;
+    border: none;
+    background-color: #F5F5F5;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: inherit;
+    padding-bottom: 2px;
+}
+
+.nav-link.active {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+/* drodown */
+
+
+
+.user-dropdown {
+    width: 200px;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    /* background-color: white; */
+    background-image:linear-gradient(#2E2E2E, #8A2BE2 );
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+    border-radius: 6px;
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.user-dropdown ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.user-dropdown li {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.user-dropdown li:hover {
+    background-color: #f5f5f5;
+}
+
+
+.search-suggestion-list {
+    position: absolute;
+    top: 90px;
+    right: 170px;
+    /* left: 980px; */
+    background-color: white;
+    border: 1px solid #ddd;
+    width: 20%;
+    /* max-height: 200px; */
+    overflow-y: auto;
+    z-index: 10;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.search-suggestion-item {
+    padding: 10px 14px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.search-suggestion-item:hover {
+    background-color: #f1f1f1;
+}

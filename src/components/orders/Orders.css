@@ -1,0 +1,62 @@
+.order-component {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 40px 80px;
+}
+
+.order-compoent-container-two {
+    padding: 20px;
+}
+
+/* .order-compoent-container-two-sub-one {
+    display: flex;
+    width: 100%;
+    border: 1px solid red;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.order-compoent-container-two-sub-two {
+    border: 1px solid #b0a9a9;
+    border-radius: 10px;
+    padding: 20px;
+    width: 22%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    background-color: #f1e6e6;
+    display: flex;
+    justify-content: space-between;
+} */
+
+.order-compoent-container-two-sub-one {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.order-compoent-container-two-sub-two {
+    flex: 1 1 calc(25% - 20px); /* 4 cards per row minus gap */
+    min-width: 250px;
+    border: 1px solid #b0a9a9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    background-color: #f1e6e6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.order-card-button{
+    padding: 5px;
+}
+
+.order-card-button button{
+    padding: 6px;
+    border: none;
+    background-color: #DB4444;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}

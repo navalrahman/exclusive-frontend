@@ -1,0 +1,130 @@
+.cart-component {
+    padding: 40px 80px 40px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* 
+.cart-component-container-two {
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+    justify-content: space-around;
+}
+
+.cart-component-container-two-table {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 100%;
+    justify-content: space-between;
+} */
+
+.cart-component-container-two {
+    width: 100%;
+    /* border: 1px solid black; */
+    overflow-x: auto;
+    padding: 10px;
+}
+
+.cart-component-container-two-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+    outline: none;
+    /* remove double borders */
+    /* border: 1px solid black; */
+}
+
+.cart-component-container-two-table th,
+.cart-component-container-two-table td {
+    padding: 20px 16px;
+    text-align: left;
+    /* border: 1px solid #ddd; */
+}
+
+.cart-component-container-three {
+    /* border: 1px solid black; */
+    width: 100%;
+}
+
+.cart-component-container-three {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.cart-component-container-three button {
+    padding: 10px;
+    width: 12%;
+    background-color: #ffffff;
+    border: 0.5px solid black;
+    border-radius: 6px;
+}
+
+.cart-component-container-four {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.cart-component-container-four-divison-one {
+    width: 30%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px; */
+}
+
+.cart-component-container-four-divison-one input {
+    padding: 10px;
+    width: 50%;
+    border-radius: 6px;
+}
+
+
+.cart-component-container-four-divison-one button {
+    padding: 10px;
+    width: 40%;
+    background-color: #DB4444;
+    border: none;
+    border-radius: 6px;
+    color: #ffffff;
+}
+
+.cart-component-container-four-divison-two {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+/* Target only the summary rows, not the whole component */
+.cart-component-container-four-divison-two div:not(.cart-button) {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 8px;
+}
+
+/* Center the button */
+.cart-button {
+  display: flex;
+  justify-content: center;
+  border: none; /* remove red border if not needed */
+}
+
+.cart-button button {
+  padding: 10px 60px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #DB4444;
+  color: #ffffff;
+  border-radius: 6px;
+  border: none;
+}

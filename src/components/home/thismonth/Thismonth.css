@@ -1,0 +1,37 @@
+.thismonth-component {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0 40px 0;
+    gap: 40px;
+    /* border: 1px solid black; */
+}
+
+
+.thismonth-component-container-one {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.thismonth-component-container-one div {
+    border-left: 10px solid #DB4444;
+    height: 20px;
+}
+
+.thismonth-component-container-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.thismonth-button{
+    padding: 10px;
+    width: 100px;
+    background-color: #DB4444;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 6px;
+    /* width: 125%; */
+}

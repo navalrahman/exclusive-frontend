@@ -1,0 +1,87 @@
+.footer-component{
+    /* height: 440px; */
+    background-color: #000000;
+    color: #ffffff;
+    padding: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-component-container-one{
+    width: 217px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-component-container-one-subdivision-one{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 12px 0 12px 12px;
+    border: 0.5px solid #ffffff;
+    /* justify-content: center  ; */
+}
+
+.footer-component-container-one-subdivision-one input{
+    width: 130px;
+    background-color: #000000;
+    outline: none;
+    border: none;
+    color: #ffffff;
+}
+
+.footer-component-container-two{
+   width: 175px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-component-container-three{
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-component-container-four{
+     width: 106px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-component-container-five{
+     width: 198px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-component-container-five-subdivison-one{
+    width: 198px;
+    height: 86px;
+    display: flex;
+    gap: 5px;
+    /* border: 1px solid white; */
+}
+
+.qr-code{
+    width: 80px;
+    height: 80px;
+}
+
+.footer-component-container-five-subdivison-one-appstore-playstore{
+    /* display: flex; */
+}
+
+.playstore{
+    display: flex;
+    gap: 2px;
+    padding: 2px;
+    margin: 4px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}

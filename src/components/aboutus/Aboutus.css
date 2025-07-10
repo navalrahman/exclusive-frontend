@@ -1,0 +1,114 @@
+.about-component{
+    padding: 40px 0 40px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.about-component-container-two{
+    display: flex;
+}
+
+.about-component-container-two-subdivision-one{
+    /* border: 1px solid black; */
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.about-component-container-two-subdivision-one div{
+    /* border: 1px solid red; */
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    padding: 25px;
+    justify-content: space-between;
+}
+
+.about-component-container-two-subdivision-two img{
+    width: 705px;
+    height: 609px;
+    border-radius: 5px;
+}
+
+.about-component-container-three{
+    /* border: 1px solid black; */
+    width: 90%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-component-container-three-division-one{
+    border: 1px solid gray;
+    width: 20.5%;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.about-component-container-three-division-one div{
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    border-radius: 50px;
+}
+
+.about-component-container-three-division-one-icon{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+
+.about-component-container-four{
+    /* border: 1px solid black; */
+    width: 90%;
+    height: 564px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-component-container-four-subdivison-one{
+    /* border: 1px solid red; */
+    width: 370px;
+    height: 464px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #F5F5F5;
+}
+
+.about-component-container-four-subdivison-one div{
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    /* text-align: left; */
+    /* justify-content: space-between; */
+    /* align-items: self-start; */
+}
+
+.about-component-container-five{
+    width: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    /* background-color: black; */
+}
